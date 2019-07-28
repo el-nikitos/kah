@@ -95,17 +95,17 @@ Wire Wire Line
 	14250 5650 14250 5000
 Wire Wire Line
 	14250 5000 14750 5000
-Text Label 14250 4800 0    50   ~ 0
+Text Label 14250 6500 0    50   ~ 0
 DOut_1
-Text Label 14250 5000 0    50   ~ 0
+Text Label 14250 6700 0    50   ~ 0
 DOut_2
 Wire Wire Line
 	14250 7350 14250 6700
 Wire Wire Line
 	14250 6700 14750 6700
-Text Label 14250 6500 0    50   ~ 0
+Text Label 14250 4800 0    50   ~ 0
 DOut_3
-Text Label 14250 6700 0    50   ~ 0
+Text Label 14250 5000 0    50   ~ 0
 DOut_4
 $Comp
 L elements:Резистор_0,125Вт R10
@@ -256,21 +256,21 @@ GND
 Wire Wire Line
 	12650 5100 11550 5100
 Connection ~ 12650 5100
-Text Label 11550 5100 2    50   ~ 0
+Text Label 11550 6800 2    50   ~ 0
 D9
 Wire Wire Line
 	12650 5950 11550 5950
-Text Label 11550 5950 2    50   ~ 0
+Text Label 11550 5100 2    50   ~ 0
 D6
 Connection ~ 12650 5950
 Wire Wire Line
 	12650 6800 11550 6800
-Text Label 11550 6800 2    50   ~ 0
+Text Label 11550 7650 2    50   ~ 0
 D5
 Connection ~ 12650 6800
 Wire Wire Line
 	12650 7650 11550 7650
-Text Label 11550 7650 2    50   ~ 0
+Text Label 11550 5950 2    50   ~ 0
 D3
 Connection ~ 12650 7650
 Wire Wire Line
@@ -536,9 +536,9 @@ Text Label 10200 3300 2    50   ~ 0
 RS_A
 Text Label 10200 3400 2    50   ~ 0
 RS_B
-Text Label 10200 3500 2    50   ~ 0
-RS_Z
 Text Label 10200 3600 2    50   ~ 0
+RS_Z
+Text Label 10200 3500 2    50   ~ 0
 RS_Y
 $Comp
 L elements:Конденсатор_керамический C1
@@ -779,12 +779,12 @@ Wire Wire Line
 	5900 6200 6200 6200
 Text Label 6200 6200 0    50   ~ 0
 D4
-Text Label 3500 5600 0    50   ~ 0
+Text Label 3500 7350 0    50   ~ 0
 D4
 Wire Wire Line
 	5900 6500 6200 6500
 Text Label 6200 6500 0    50   ~ 0
 D2
-Text Label 3500 7350 0    50   ~ 0
+Text Label 3500 5600 0    50   ~ 0
 D2
 $EndSCHEMATC
